@@ -1,9 +1,157 @@
-h1{
-background-color: pink solid;
-padding: 50px;
-}
-
-header{
-background-color: solid pink;
-padding: 50px;
-}
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    }
+    
+    header{
+    margin: auto;
+    }
+    
+    h1{
+    background-color: rgb(247, 0, 115);
+    padding: 50px;
+    color: rgb(255, 242, 248);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: center;
+    }
+    
+    nav{
+    text-align: center;
+    background-color: rgb(241, 60, 151);
+    padding:5px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px ;
+    }
+    
+    
+    
+    main{
+    display: flex;
+    gap: 7px;
+    
+    
+    
+    }
+    
+    #pinkcake{
+        border:solid rgb(238, 0, 99) 4px;
+        align-items: center;
+        display: flex;
+        flex-flow:column;
+        padding: 20px;
+        max-width: 500px;
+        margin: auto;
+    }
+    
+    img {
+        width: 500px;
+        height:500px;
+        margin: 0%;
+        text-align: center;
+    }
+    
+    figcaption{
+        background-color: rgb(29, 28, 28);
+        color: rgb(249, 246, 246);
+        font: italic;
+        font-size: 5px;
+        padding: 10px;
+        text-align: center;
+    }   
+    
+    
+    
+    
+    
+    
+    
+    #pinkmacarrao{
+        border:solid rgb(238, 0, 99) 4px;
+        align-items: center;
+        display: flex;
+        flex-flow:column;
+        padding: 20px;
+        max-width: 500px;
+        margin: auto;
+    }
+    
+    img {
+        max-width: 220px;
+        max-height: 220px;
+    }
+    
+    figcaption{
+        background-color: #222;
+        color: #fff;
+        font: italic smaller sans-serif;
+        padding: 3px;
+        text-align: center;
+    }
+    
+    #pinklemonade{
+        border:solid rgb(238, 0, 99) 4px;
+        align-items: center;
+        display: flex;
+        flex-flow:column;
+        padding: 20px;
+        max-width: 500px;
+        margin: auto;
+    }
+    
+    img {
+        max-width: 220px;
+        max-height: 150px;
+    }
+    
+    figcaption{
+        background-color: #222;
+        font-size: 5px;
+        color: #fff;
+        font: italic smaller sans-serif;
+        padding: 3px;
+        text-align: center;
+    }
+    
+    body{
+    background-color: rgb(233, 170, 209);
+    }
+    
+    h4{
+         background-color: rgb(247, 0, 115);
+    padding: 20px;
+    color: rgb(255, 242, 248);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: center;
+    }
+    
+    h2{
+    margin: 2px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    }
+    
+    h3{
+        margin: 2px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+    }
+    
+    section{
+    text-align: justify;
+    margin: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(49, 1, 27);
+    }
